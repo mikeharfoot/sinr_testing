@@ -92,3 +92,6 @@ target/
 .tox
 
 .ruff_cache
+#Include files
+!data/README.md
+!data/env/format_env_feats.py
