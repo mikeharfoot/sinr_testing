@@ -1,0 +1,9 @@
+[tool.ruff]
+select = [
+    "W",    # pycodestyle warnings
+    "F",    # flake8
+    "I",    # isort
+]
+line-length = 100
+ignore = []
+extend-include = ["*.ipynb"]
